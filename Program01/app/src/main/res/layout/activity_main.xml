@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.github.noreply.users.gramzanber.Program01.MainActivity">
+
+    <TextView
+        android:id="@+id/introTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/introText"
+        android:layout_marginBottom="@dimen/mediumBottomPadding"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/numberTextViewOne"
+        android:layout_width="@dimen/standardTextboxWidth"
+        android:layout_height="@dimen/standardTextboxHeight"
+        android:layout_below="@id/introTextView"
+        android:textSize="@dimen/standrardTextSize"
+        android:text="@string/numberOneText"/>
+
+    <EditText
+        android:id="@+id/numberEditTextOne"
+        android:layout_width="@dimen/standardTextboxWidth"
+        android:layout_height="@dimen/standardTextboxHeight"
+        android:layout_toRightOf="@id/numberTextViewOne"
+        android:textSize="@dimen/standrardTextSize"
+        android:layout_below="@+id/introTextView"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/numberTextViewTwo"
+        android:layout_width="@dimen/standardTextboxWidth"
+        android:layout_height="@dimen/standardTextboxHeight"
+        android:layout_below="@id/numberTextViewOne"
+        android:textSize="@dimen/standrardTextSize"
+        android:text="@string/numberTwoText" />
+
+    <EditText
+        android:id="@+id/numberEditTextTwo"
+        android:layout_width="@dimen/standardTextboxWidth"
+        android:layout_height="@dimen/standardTextboxHeight"
+        android:layout_toRightOf="@id/numberTextViewTwo"
+        android:textSize="@dimen/standrardTextSize"
+        android:layout_below="@+id/numberEditTextOne"
+        android:inputType="numberDecimal|numberSigned"
+        />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="@dimen/standardTextboxWidth"
+        android:layout_height="@dimen/standardTextboxHeight"
+        android:layout_below="@id/numberTextViewTwo"
+        android:textSize="@dimen/standrardTextSize"
+        android:text="@string/resultText"
+        android:layout_marginBottom="@dimen/largeBottomPadding" />
+
+    <EditText
+        android:id="@+id/resultEditText"
+        android:layout_width="@dimen/standardTextboxWidth"
+        android:layout_height="@dimen/standardTextboxHeight"
+        android:layout_toRightOf="@id/resultTextView"
+        android:textSize="@dimen/standrardTextSize"
+        android:layout_below="@+id/numberEditTextTwo"
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="@dimen/standardButtonWidth"
+        android:layout_height="@dimen/standardButtonHeight"
+        android:layout_below="@id/resultTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/smallBottomPadding"
+        android:textSize="@dimen/standrardButtonTextSize"
+        android:text="@string/addButton"/>
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="@dimen/standardButtonWidth"
+        android:layout_height="@dimen/standardButtonHeight"
+        android:layout_below="@id/addButton"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/standrardButtonTextSize"
+        android:text="@string/multiplyButton"/>
+</RelativeLayout>

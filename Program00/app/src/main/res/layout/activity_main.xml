@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.noreply.users.gramzanber.Program00.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/introText"
+        android:id="@+id/introText"
+        android:layout_marginTop="@dimen/standardTopPadding"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="@dimen/largeBottomPadding"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/standardButton"
+        android:layout_height="wrap_content"
+        android:text="@string/nameButton"
+        android:id="@+id/nameButton"
+        android:layout_below="@+id/introText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/standardButton"
+        android:layout_height="wrap_content"
+        android:text="@string/degreeButton"
+        android:id="@+id/degreeButton"
+        android:layout_marginTop="@dimen/standardTopPadding"
+        android:layout_below="@+id/nameButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="@dimen/standardButton"
+        android:layout_height="wrap_content"
+        android:text="@string/clearButton"
+        android:id="@+id/clearButton"
+        android:layout_below="@+id/degreeButton"
+        android:layout_alignEnd="@+id/degreeButton"
+        android:layout_marginTop="@dimen/standardTopPadding"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

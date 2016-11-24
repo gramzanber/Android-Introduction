@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">p4TyrelT</string>
+    <string name="actionSettings">Settings</string>
+    <string name="signUp">Sign Up</string>
+    <string name="departmentInfo">Department Info</string>
+    <string name="labelName">Name</string>
+    <string name="labelPassword">Password</string>
+    <string name="labelDateOfBirth">Date of Birth</string>
+    <string name="labelGender">Gender</string>
+    <string name="labelSkills">Skills</string>
+    <string name="labelClassification">Classification</string>
+    <string name="pickDate">Pick a Date</string>
+    <string name="genderMale">Male</string>
+    <string name="genderFemale">Female</string>
+    <string name="checkboxAndroid">Android</string>
+    <string name="checkboxJava">Java</string>
+    <string name="checkboxCPlusPlus">C++</string>
+    <string name="checkboxSwift">Swift</string>
+    <string name="checkboxiOS">IOS</string>
+    <string name="email">Email</string>
+    <string name="call">Call</string>
+    <string-array name="arrayClassification">
+        <item>Freshmen</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+        <item>Graduate</item>
+    </string-array>
+    <string name="register">Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is a blank fragment</string>
+</resources>

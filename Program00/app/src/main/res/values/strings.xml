@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Program00</string>
+    <string name="introText">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nameButton">Name</string>
+    <string name="degreeButton">Degree</string>
+    <string name="clearButton">Clear</string>
+    <string name="programmerName" translatable="false">Tyrel Tachibana</string>
+    <string name="degreePlan">Computer Science</string>
+    <string name="errorMessage">A button was pressed that was not assigned an action!</string>
+    <string name="errorToast">An error occurred!</string>
+</resources>

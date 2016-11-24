@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Program00</string>
+    <string name="programmerName" translatable="false">橘タイレル</string>
+    <string name="nameButton">名前</string>
+    <string name="introText">こんにちは世界</string>
+    <string name="errorToast">エラーが発生しました！</string>
+    <string name="errorMessage">ボタンは、アクションを割り当てられなかったことが押されました！</string>
+    <string name="degreePlan">コンピュータ科学</string>
+    <string name="degreeButton">学問</string>
+    <string name="clearButton">無い</string>
+</resources>

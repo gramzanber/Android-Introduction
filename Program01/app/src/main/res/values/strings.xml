@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Program01</string>
+    <string name="introText">Welcome to my primitive calculating app!</string>
+    <string name="addActivityText">These numbers are to be added!</string>
+    <string name="multiplyActivityText">These numbers are to be multiplied!</string>
+    <string name="addButton">Add</string>
+    <string name="multiplyButton">Multiply</string>
+    <string name="computeButton">Compute</string>
+    <string name="numberOneText">Number One:</string>
+    <string name="numberTwoText">Number Two:</string>
+    <string name="resultText">Result: </string>
+    <string name="programmerName">Tyrel Nathanial Tachibana</string>
+    <string name="errorMessage">A button was pressed that was not assigned an action!</string>
+    <string name="errorToast">An error occurred!</string>
+    <string name="action_settings">Settings</string>
+</resources>

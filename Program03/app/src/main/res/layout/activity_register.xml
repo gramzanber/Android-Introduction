@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.uco.ttachibana.p4TyrelT.RegisterActivity">
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingStart="20dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/labelName"/>
+
+    <TextView
+        android:id="@+id/textviewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/labelName"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/labelName"/>
+
+    <TextView
+        android:id="@+id/labelPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textSize="15sp"
+        android:text="@string/labelPassword"
+        android:layout_below="@id/labelName"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textviewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/labelPassword"
+        android:layout_below="@+id/textviewName"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@+id/textviewName"/>
+
+    <TextView
+        android:id="@+id/labelDateOfBirth"
+        android:paddingStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/labelDateOfBirth"
+        android:layout_below="@id/labelPassword"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textviewDateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/labelDateOfBirth"
+        android:layout_below="@id/textviewPassword"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/textviewPassword"/>
+
+    <TextView
+        android:id="@+id/labelGender"
+        android:layout_width="wrap_content"
+        android:paddingStart="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/labelGender"
+        android:layout_below="@id/labelDateOfBirth"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textviewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelGender"
+        android:textSize="15sp"
+        android:layout_below="@id/textviewDateOfBirth"
+        android:layout_alignStart="@id/textviewDateOfBirth"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/labelSkills"
+        android:layout_width="wrap_content"
+        android:paddingStart="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/labelSkills"
+        android:textSize="15sp"
+        android:layout_below="@id/labelGender"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textviewSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:text="@string/labelSkills"
+        android:layout_below="@id/textviewGender"
+        android:layout_alignStart="@id/textviewGender"
+        android:textSize="15sp"
+
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/labelClassification"
+        android:paddingStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelClassification"
+        android:textSize="15sp"
+        android:layout_below="@id/labelSkills"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/textviewClassification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelClassification"
+        android:textSize="15sp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/textviewSkills"
+        android:layout_alignStart="@id/textviewSkills"/>
+
+</RelativeLayout>

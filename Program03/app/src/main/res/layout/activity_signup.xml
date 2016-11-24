@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.uco.ttachibana.p4TyrelT.SignupActivity">
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/labelName"
+        android:paddingStart="20dp"
+        android:paddingEnd="76dp"
+        android:paddingTop="20dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/edittextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/labelName"
+        android:inputType="textCapWords"
+        android:layout_marginEnd="50dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/labelPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="50dp"
+        android:paddingTop="20dp"
+        android:textSize="15sp"
+        android:layout_below="@id/labelName"/>
+
+    <EditText
+        android:id="@+id/edittextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/labelPassword"
+        android:layout_below="@id/edittextName"
+        android:inputType="textPassword"
+        android:layout_marginEnd="50dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/labelDateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelDateOfBirth"
+        android:paddingStart="20dp"
+        android:paddingEnd="70dp"
+        android:paddingTop="35dp"
+        android:textSize="15sp"
+        android:layout_below="@id/labelPassword"/>
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/labelDateOfBirth"
+        android:layout_below="@id/edittextPassword"
+        android:text="@string/pickDate"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/labelGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelGender"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="25dp"
+        android:textSize="15sp"
+        android:layout_below="@id/labelDateOfBirth"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/labelGender"
+        android:layout_alignStart="@id/edittextPassword"
+        android:layout_below="@id/buttonDate"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radiobuttonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genderMale"/>
+
+        <RadioButton
+            android:id="@+id/radiobuttonFemale"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/genderFemale"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/labelSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelSkills"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/labelGender"
+        android:layout_marginTop="30dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxAndroid"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/labelSkills"
+        android:text="@string/checkboxAndroid"
+        android:layout_marginStart="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxJava"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/checkboxAndroid"
+        android:layout_below="@id/labelSkills"
+        android:text="@string/checkboxJava"
+        android:layout_marginStart="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxCPlusPlus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/checkboxJava"
+        android:layout_below="@id/labelSkills"
+        android:text="@string/checkboxCPlusPlus"
+        android:layout_marginStart="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxSwift"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/checkboxCPlusPlus"
+        android:layout_below="@id/labelSkills"
+        android:text="@string/checkboxSwift"
+        android:layout_marginStart="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxiOS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/checkboxSwift"
+        android:layout_below="@id/labelSkills"
+        android:text="@string/checkboxiOS"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/labelClassification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelClassification"
+        android:paddingStart="20dp"
+        android:paddingEnd="70dp"
+        android:paddingTop="40dp"
+        android:textSize="15sp"
+        android:layout_below="@id/checkboxAndroid"/>
+
+    <Spinner
+        android:id="@+id/spinnerClassification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/arrayClassification"
+        android:layout_toEndOf="@id/labelClassification"
+        android:layout_below="@id/checkboxAndroid"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_below="@id/spinnerClassification"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
